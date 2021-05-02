@@ -3,7 +3,7 @@ app = Flask(__name__)
 
 
 @app.route('/')
-def main():
+def home():
     return "Welcome to TechCraft Assignment"
 
 @app.route('/<name>')
